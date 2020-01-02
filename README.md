@@ -1,13 +1,15 @@
 
 # MKDS-armips-template
-This file serves as a template for armips assembler that allows to create Mario Kart DS ASM hacks with variable sizes of ARM9.bin.
+This file serves as a template for armips assembler that allows to create Mario Kart DS ASM hacks with variable sizes of decrypted ARM9.bin.
 
 *Armips* assembler programmed by Kingcom can be found under this link:
 [https://github.com/Kingcom/armips](https://github.com/Kingcom/armips)
 
+The script was made with an ARM9.bin decrypted by Gericom's [*Every File Explorer*](https://gbatemp.net/threads/release-every-file-explorer.373615/), though any method of decryption of ARM9 should work as well.
+
 This isn't the only method of assembling custom code for Mario Kart DS (either an old version of Gericom's [*MKDS Course Modifier*](https://www.romhacking.net/utilities/1285/) or Dirbaio's [*NSMBe*](https://nsmbhd.net/download/) can be used), but this template can ensure that your code will become compatible with a cross-platform tool in active development. 
 
-The bare template does not require any additional packages, which makes it a lightweight and easy solution. Building object files in C however requires compilation for an ARM platform with a compiler such as arm-none-eabi-gcc or, for perfect compatibility, Nintendo's in-house compiler in Metrowerks's *CodeWarrior* package (*mwccarm* version 2).
+The bare template does not require any additional packages, which makes it a lightweight and easy solution. Building object files in C however requires compilation for an ARM platform with a compiler such as *arm-none-eabi-gcc* or, for perfect compatibility, Nintendo's in-house compiler in Metrowerks's *CodeWarrior* package (*mwccarm* version 2).
 
 ------------------
 
